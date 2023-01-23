@@ -13,6 +13,10 @@ table 50420 MyTable
         {
             DataClassification = ToBeClassified;
         }
+        field(3; "Customer Name"; Text[50])
+        {
+            DataClassification = CustomerContent;
+        }
     }
 
     keys
